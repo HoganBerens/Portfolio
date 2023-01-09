@@ -1,0 +1,12 @@
+.aboutMe-wrapper {
+  display: flex;
+
+  background-color: #687980;
+  justify-content: center;
+}
+
+.aboutMe-title {
+  font-size: 20px;
+  color: #f8f1f1;
+  padding: 10px;
+}
