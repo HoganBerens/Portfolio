@@ -1,10 +1,11 @@
-import React from "react";
-import "./header.css";
+import React from 'react';
+import './header.css';
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
-      <div className="title">Hogan's Portfolio</div>
+    <div className="header-children">
+      <div className="github-link">git</div>
+      <div className="email-link">email</div>
     </div>
   );
 };

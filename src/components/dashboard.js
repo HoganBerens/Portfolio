@@ -1,18 +1,18 @@
-import React from "react";
-import AboutMe from "./aboutMe";
-import "./dashboard.css";
-import Header from "./header";
-import ContactMe from "./contactMe";
-import Links from "./links";
+import React from 'react';
+import AboutMe from './aboutMe';
+import Header from './header';
+import Projects from './projects';
+import './dashboard.css';
 
 const Dashboard = () => {
   return (
-    <div className="home-wrapper">
-      <Header />
+    <div className="wrapper">
+      <div className="header-wrapper">
+        <Header />
+      </div>
       <div className="children-wrapper">
         <AboutMe />
-        <ContactMe />
-        <Links />
+        <Projects />
       </div>
     </div>
   );
