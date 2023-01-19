@@ -1,10 +1,11 @@
-import React from 'react';
-import './aboutMe.css';
+import React from "react";
+import "./aboutMe.css";
 
 const AboutMe = () => {
   return (
     <div className="aboutMe-wrapper">
-      <div>aboutMe</div>
+      <div className="aboutMe-title">Welcome</div>
+      <div className="aboutMe-content">aboutMe</div>
     </div>
   );
 };

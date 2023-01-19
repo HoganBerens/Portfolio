@@ -1,1 +1,10 @@
-
+.aboutMe-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.aboutMe-title {
+  font-size: 100px;
+}
+.aboutMe-content {
+  font-size: 30px;
+}
