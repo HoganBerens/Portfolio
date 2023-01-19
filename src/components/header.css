@@ -6,7 +6,9 @@
 
 .github-link {
   margin-right: 30px;
+  text-decoration: none;
+  color: inherit;
 }
-.email-link {
+.linkedIn-link {
   margin-right: 30px;
 }

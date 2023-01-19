@@ -11,6 +11,9 @@
   max-width: 1541px;
   max-height: 910px;
   display: flex;
+  border-style: solid;
+  border-width: 6px;
+  border-image: conic-gradient(grey, grey, lime, grey, grey, magenta, grey) 1;
 }
 
 .sized-wrapper {
@@ -18,28 +21,12 @@
   flex-direction: column;
   max-width: 1500px;
   max-height: 872px;
+  padding-bottom: 80px;
 }
 
 .header-wrapper {
   width: 210px;
   align-self: flex-end;
-}
-
-.banner-wrapper {
-  width: 0px;
-  height: 0px;
-}
-
-.banner-1 {
-  background-color: yellow;
-  height: 300px;
-  width: 20px;
-}
-
-.banner-2 {
-  background-color: yellow;
-  width: 300px;
-  height: 20px;
 }
 
 .children-wrapper {
@@ -48,9 +35,4 @@
   height: 60vh;
   width: 80vw;
   justify-content: space-around;
-}
-
-.banner-wrapper-2 {
-  height: 0px;
-  width: 0px;
 }
